@@ -52,4 +52,6 @@ students = {
     "102": {"name": "Karim", "age": 22},
     "103": {"name": "Sajib", "age": 23}
 }
-print(students["102"]["name"])
+print(students["102"]["name"]) #print name of id 102
+students["103"]["age"]= 24
+print(students)
