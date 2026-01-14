@@ -40,8 +40,16 @@
 
 
 #4
-from collections import Counter
-numbers = [1, 2, 2, 3, 1, 4, 2]
+# from collections import Counter
+# numbers = [1, 2, 2, 3, 1, 4, 2]
 
-frequency = Counter(numbers)
-print(dict(frequency))
+# frequency = Counter(numbers)
+# print(dict(frequency))
+
+#5
+students = {
+    "101": {"name": "Rahim", "age": 21},
+    "102": {"name": "Karim", "age": 22},
+    "103": {"name": "Sajib", "age": 23}
+}
+print(students["102"]["name"])
