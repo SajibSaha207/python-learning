@@ -22,18 +22,26 @@
 
 #3
 
-marks = {
-    "Math": 85,
-    "English": 78,
-    "Physics": 92
-}
+# marks = {
+#     "Math": 85,
+#     "English": 78,
+#     "Physics": 92
+# }
 
-for sub in marks:
-    print(sub)
-for mark in marks.values():
-    print(mark)
+# for sub in marks:
+#     print(sub)
+# for mark in marks.values():
+#     print(mark)
 
-total_sum = 0
-# for mark in marks:
-total_sum += mark
-print(f"Total_sum: {total_sum}")
+# total_sum = 0
+# # for mark in marks:
+# total_sum += mark
+# print(f"Total_sum: {total_sum}")
+
+
+#4
+from collections import Counter
+numbers = [1, 2, 2, 3, 1, 4, 2]
+
+frequency = Counter(numbers)
+print(dict(frequency))
