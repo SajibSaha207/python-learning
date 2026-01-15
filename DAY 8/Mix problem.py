@@ -42,10 +42,17 @@
 
 #5
 # from collections import Counter
-# nums = [1, 2, 3, 2, 4, 2, 5]
+nums = [1, 2, 3, 2, 4, 2, 5]
 
-# frequency = Counter(2)
-# print(frequency)
+target = 2
+frq = 0
+
+for number in nums:
+    if number == target:
+        frq += 1
+print(f"The frequency of {target} is {frq} time in list")
+
+
 
 #6
 # student = ("Rahim", 21, "CSE")
@@ -86,10 +93,10 @@
 # print(f"Total_Sum:{total_sum} ")
 
 #10
-nums = [2, 7, 11, 15]
-target = 9
+# nums = [2, 7, 11, 15]
+# target = 9
 
-for i in range(len(nums)):
-    for j in range(i+1, len(nums)):
-        if nums[i] + nums[j] == target:
-            print(i, j)
+# for i in range(len(nums)):
+#     for j in range(i+1, len(nums)):
+#         if nums[i] + nums[j] == target:
+#             print(i, j)
