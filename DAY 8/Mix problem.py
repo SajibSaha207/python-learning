@@ -25,7 +25,17 @@
 #     print("Number is zero")
 
 #3
-numbers = [12, 45, 7, 89, 23]
-print(numbers[0])
-print(numbers[-1])
-print(len(numbers))
+# numbers = [12, 45, 7, 89, 23]
+# print(numbers[0])
+# print(numbers[-1])
+# print(len(numbers))
+
+#4
+marks = [55, 67, 89, 45, 72]
+
+for mark in marks:
+    if mark > 60:
+        print("Marks is: ", mark)
+
+total_sum = sum(marks)
+print(total_sum)
