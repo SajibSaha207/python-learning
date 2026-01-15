@@ -56,8 +56,18 @@
 
 #7
 
-numbers = [2, 4, 5, 2, 4, 6, 7, 5]
-uni_numbers = set(numbers)
+# numbers = [2, 4, 5, 2, 4, 6, 7, 5]
+# uni_numbers = set(numbers)
 
-print("Uni_numbers: ", uni_numbers)
-print("Total Uni_numbers: ", len(uni_numbers))
+# print("Uni_numbers: ", uni_numbers)
+# print("Total Uni_numbers: ", len(uni_numbers))
+
+# 8
+student = {
+  "name": "Sajib",
+  "age": 22,
+  "dept": "CSE"
+}
+print(student["name"])
+student["age"]= 23
+print(student)
