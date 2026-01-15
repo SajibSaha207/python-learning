@@ -15,11 +15,17 @@
 # print(total_div)
 
 #2
-num = int(input("Enter your  number: "))
+# num = int(input("Enter your  number: "))
 
-if num >= 0:
-    print("Positive")
-elif num <= 0:
-    print("Negative")
-else:
-    print("Number is zero")
+# if num >= 0:
+#     print("Positive")
+# elif num <= 0:
+#     print("Negative")
+# else:
+#     print("Number is zero")
+
+#3
+numbers = [12, 45, 7, 89, 23]
+print(numbers[0])
+print(numbers[-1])
+print(len(numbers))
