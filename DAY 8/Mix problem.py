@@ -63,11 +63,24 @@
 # print("Total Uni_numbers: ", len(uni_numbers))
 
 # 8
-student = {
-  "name": "Sajib",
-  "age": 22,
-  "dept": "CSE"
+# student = {
+#   "name": "Sajib",
+#   "age": 22,
+#   "dept": "CSE"
+# }
+# print(student["name"])
+# student["age"]= 23
+# print(student)
+
+#9
+marks = {
+  "Math": 85,
+  "English": 78,
+  "Physics": 92
 }
-print(student["name"])
-student["age"]= 23
-print(student)
+total_sum=0
+for sub in marks:
+    print(sub)
+for mark in marks.values():
+    total_sum += mark
+print(f"Total_Sum:{total_sum} ")
