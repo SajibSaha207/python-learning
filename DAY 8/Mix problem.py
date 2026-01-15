@@ -31,11 +31,25 @@
 # print(len(numbers))
 
 #4
-marks = [55, 67, 89, 45, 72]
+# marks = [55, 67, 89, 45, 72]
 
-for mark in marks:
-    if mark > 60:
-        print("Marks is: ", mark)
+# for mark in marks:
+#     if mark > 60:
+#         print("Marks is: ", mark)
 
-total_sum = sum(marks)
-print(total_sum)
+# total_sum = sum(marks)
+# print(total_sum)
+
+#5
+# from collections import Counter
+# nums = [1, 2, 3, 2, 4, 2, 5]
+
+# frequency = Counter(2)
+# print(frequency)
+
+#6
+student = ("Rahim", 21, "CSE")
+(Name, Age, Dept) = student
+print("name: ",Name)
+print("age: ",Age)
+print("dept: ",Dept)
