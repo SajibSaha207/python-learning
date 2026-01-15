@@ -48,8 +48,16 @@
 # print(frequency)
 
 #6
-student = ("Rahim", 21, "CSE")
-(Name, Age, Dept) = student
-print("name: ",Name)
-print("age: ",Age)
-print("dept: ",Dept)
+# student = ("Rahim", 21, "CSE")
+# (Name, Age, Dept) = student
+# print("name: ",Name)
+# print("age: ",Age)
+# print("dept: ",Dept)
+
+#7
+
+numbers = [2, 4, 5, 2, 4, 6, 7, 5]
+uni_numbers = set(numbers)
+
+print("Uni_numbers: ", uni_numbers)
+print("Total Uni_numbers: ", len(uni_numbers))
