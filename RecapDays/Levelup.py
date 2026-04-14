@@ -15,3 +15,23 @@
 # print(smallest)
 
 
+
+#
+numbers = [1, 2, 2, 3, 3, 4]
+
+for i in range(len(numbers)):
+    count = 0
+    for j in range(len(numbers)):
+         if numbers [i] == numbers [j]:
+              count += 1
+    
+    if count > 1:
+         print(numbers[i])
+
+# for j in range(len(numbers)):
+#     if numbers[i] == numbers[j]:
+#           count += 1
+
+# if count > 1:
+#     print(numbers[i])
+
