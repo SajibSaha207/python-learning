@@ -20,5 +20,14 @@ for char in text:
 print(count)
         
 
+#3 second leargest number
 
+numbers = [10, 25, 5, 30, 20]
+
+numbers = list(set(numbers))
+if len(numbers)< 2:
+    print("No 2nd largest number")
+else:
+    numbers.sort()
+    print(numbers[-2])
 
